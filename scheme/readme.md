@@ -32,3 +32,9 @@ vim 可编译 +mzschema
 https://lisperator.net/pltut/
 用 js 实现一个简单的 lambda language
 可以学习模仿练习用C++ 实践解释器
+
+CPS continuation-pass style
+返回值不返回，而是调用一个 callback
+每个函数开始有一个额外的 callback 参数
+
+利用 CPS 模拟实现了 scheme 的 call/cc
